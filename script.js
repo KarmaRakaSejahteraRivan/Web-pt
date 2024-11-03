@@ -1,4 +1,6 @@
-// Interaksi dasar untuk website
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('Website PT. Karma Raka Sejahtera Rivan siap!');
+// Initialize AOS library for animations
+AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: false
 });
